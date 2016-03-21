@@ -17,7 +17,7 @@ class TestPages(unittest.TestCase):
     def testNatsumeSouseki(self):
         self.browser.get('http://www.aozora.gr.jp/cards/000148/files/789_14547.html')
         self.assertIn('夏目漱石 吾輩は猫である', self.browser.title)
-        self.browser.get_screenshot_as_file("/hoge/hogehoge.png")
+        self.browser.get_screenshot_as_file("/host/aozora_wagahai.png")
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
