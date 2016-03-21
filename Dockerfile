@@ -1,6 +1,7 @@
 FROM alpine:latest
 
 COPY fonts.conf /root/.fonts.conf
+# Please override your favorite font file path
 COPY JKG-L_3.ttf /root/.local/share/fonts/
 
 RUN apk update && apk add python3 xvfb firefox dbus && rm -rf /var/cache/apk/*
