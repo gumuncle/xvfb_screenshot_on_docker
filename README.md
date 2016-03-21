@@ -13,6 +13,3 @@ Thank you for a splendid font!
 + [女子高生風？の可愛い極細フォント「JKゴシックL」のダウンロード ｜ ふぉんときゅーとがーる](http://font.cutegirl.jp/jk-font-light.html)  
 + [ふぉんときゅーとがーる](http://font.cutegirl.jp/category/about)
 
-
-
-![alt text](aozora_wagahai.png "output png")
