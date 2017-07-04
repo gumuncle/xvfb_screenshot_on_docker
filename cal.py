@@ -3,7 +3,6 @@ import unittest
 from selenium import webdriver
 from xvfbwrapper import Xvfb
 
-
 class TestPages(unittest.TestCase):
 
     def setUp(self):
@@ -15,9 +14,8 @@ class TestPages(unittest.TestCase):
 
 
     def testNatsumeSouseki(self):
-        self.browser.get('http://counting.hatelabo.jp/count/')
+        self.browser.get('http://www.tenki.jp/forecast/3/16/4410/13104-daily.html')
         self.browser.get_screenshot_as_file("/host/cal.png")
-
 
         from PIL import Image
         img = Image.open("/host/cal.png")
