@@ -1,5 +1,7 @@
 # screenshot and test on xvfb on docker
 
+http://qiita.com/yusukefurukawa/items/8774a2fc38799915790b
+
 It is a sample taking screenshot using any font on docker.
 
 ```
